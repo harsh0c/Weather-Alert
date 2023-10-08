@@ -34,7 +34,9 @@ To use the environment variables from .env and install the project:
 pip intall requirements.txt
 ```
 ### Step 3: Run the agent script
-To run the agent :
+To run the agent :  
+The agent fetches the current temperature and checks with the minimum and maximum temperature.
+The agent scipt can be found in walert folder.
 ```bash
 cd walert
 python myagent.py
@@ -42,8 +44,7 @@ python myagent.py
 
 ### Step 4: Run the main script(Django Frontend)
 To run the project :  
-Go the weather folder  
-Open a new terminal in the same directory as manage.py
+Open a new terminal in the same directory as manage.py i.e. the root directory of project.    
 ```bash
 python manage.py runserver
 ```
